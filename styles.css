@@ -55,14 +55,6 @@
 .about-me {
     font-size: small;
     position: relative;
-    margin-left: 50px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.about-me {
-    font-size: small;
-    position: relative;
-    margin-left: 0px;
     font-family: 'Roboto', sans-serif;
 }
 .line {
