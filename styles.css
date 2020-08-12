@@ -29,6 +29,7 @@
 
 .nav-link:hover {
     color: grey;
+    font-variant: small-caps;
 }
 
 .nav-item {
@@ -59,4 +60,21 @@
 }
 .line {
     border-bottom: 3px solid teal;
+}
+/* @media screen and (max-width: 768px) */
+/* .mobile { */
+    /* test */
+/* } */
+
+.card-text {
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-deck {
+    margin-bottom: 50px;
+}
+.form-group {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
