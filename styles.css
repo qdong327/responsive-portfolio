@@ -78,3 +78,23 @@
     font-family: 'Roboto', sans-serif;
     font-size: small;
 }
+
+/*extra small devices*/
+/* @media (min-width: 300px) { */
+    /* .header { */
+    /* background-size: 55%; */
+    /* height: 15em; */
+    /* } */
+/* } */
+  /* Small devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+    .header {
+    background-size: 40%; */
+    /* }
+} */
+  /* Medium devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    .header {
+    background-size: 30%;
+}
+} */

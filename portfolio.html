@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
   <body class="surround">
     <!-- container -->
-      <div class="container">
-        <div class="row">
+    <div class="container">
+      <div class="row">
         <nav class="col col-12 navbar navbar-expand-lg navbar-light bg-light justify-content-between">
           <a class="navbar-brand" href="index.html">Quinn Dong-Kilkenny</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="col col-4 collapse navbar-collapse" id="navbarNav">
-            
+
             <ul class="col col-4 navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -32,99 +39,114 @@
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">About
-                  <span class="sr-only">(current)               
+                  <span class="sr-only">(current)
                   </span>
                 </a>
               </li>
             </ul>
           </div>
-        </nav>       
+        </nav>
       </div>
     </div>
-      <div class="container content bg-light">
-        <div class="row">
-          <div class="col col-12">
-            <h3 class="header">Portfolio</h3>
-<!-- first row of images -->
-<div class="row">
-  <div class="col col-12">
-    <article>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202829059" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">HTML</h5>
-            <p class="card-text">This is something I kind of know! With a little more practice, I am confident that I will get the hang of this in no time.</p>
+    <div class="container content bg-light">
+      <div class="row">
+        <div class="col col-12">
+          <h3 class="header">Portfolio</h3>
+          <!-- first row of images -->
+          <div class="row">
+            <div class="col col-12">
+              <article>
+                <div class="card-deck">
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202829059"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                      <p class="card-text">This is something I kind of know! With a little more practice, I am confident
+                        that I will get the hang of this in no time.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202799879"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS</h5>
+                      <p class="card-text">With my design background, CSS comes pretty naturally to me. I prefer making
+                        stylesheets to formulating the website structure because styles are much more straightforward to
+                        me.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 1 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">JavaScript</h5>
+                      <p class="card-text">I am excited to learn JavaScript as our class goes on this week. It seems we
+                        will be able to accomplish some interesting things with this language.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 4 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202799879" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">CSS</h5>
-            <p class="card-text">With my design background, CSS comes pretty naturally to me. I prefer making stylesheets to formulating the website structure because styles are much more straightforward to me.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 1 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="http://placeimg.com/640/480/any" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">JavaScript</h5>
-            <p class="card-text">I am excited to learn JavaScript as our class goes on this week. It seems we will be able to accomplish some interesting things with this language.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 4 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </article>
-    </div>
-    </div>
-<!-- second row of images -->
+          <!-- second row of images -->
 
-    <div class="row">
-      <div class="col col-12">
-        <article>
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202978351" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Python</h5>
-                <p class="card-text">I began learning Python a few years ago but I have since forgotten everything. This seemed like an accessible language for those transitioning from an architeture background.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 1 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202999129" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">C++</h5>
-                <p class="card-text">I borrowed a bunch of C++ and C books from my parents, who both have Master's in Computer Science, and yet I did not listen to them when they told me to learn it ten years ago!</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 5 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597203013511" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Raspberry Pi</h5>
-                <p class="card-text">I was told by a friend that I could start a small project with Raspberry Pi to gain an understanding of the full process of coding start to finish.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 9 mins ago</small>
-              </div>
+          <div class="row">
+            <div class="col col-12">
+              <article>
+                <div class="card-deck">
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202978351"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Python</h5>
+                      <p class="card-text">I began learning Python a few years ago but I have since forgotten
+                        everything. This seemed like an accessible language for those transitioning from an architeture
+                        background.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 1 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597202999129"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">C++</h5>
+                      <p class="card-text">I borrowed a bunch of C++ and C books from my parents, who both have Master's
+                        in Computer Science, and yet I did not listen to them when they told me to learn it ten years
+                        ago!</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 5 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="http://placeimg.com/640/480/any?t=1597203013511"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Raspberry Pi</h5>
+                      <p class="card-text">I was told by a friend that I could start a small project with Raspberry Pi
+                        to gain an understanding of the full process of coding start to finish.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 9 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
-        </article>
-        </div>
-        </div>
 
-      
-</body>
+
+  </body>
+
 </html>
