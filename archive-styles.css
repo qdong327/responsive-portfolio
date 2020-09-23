@@ -1,0 +1,100 @@
+.navbar-brand {
+    background-color: teal;
+    color: white !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+
+.header {
+    color: teal !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-collapse {
+    float: right;
+}
+
+.container {
+    border: 1px solid white;
+    display: block;
+    position: relative;
+}
+.nav-link {
+    display: inline;
+}
+
+.nav-link:hover {
+    color: grey;
+    font-variant: small-caps;
+}
+
+.nav-item {
+    display: inline;
+    align-content: flex-end
+}
+
+.surround {
+    /* other image maybe to include */
+    /* background-image: url(https://svgsilh.com/svg/1301794.svg); */
+    background-image: url(https://svgsilh.com/svg/1781533-e0e0e0.svg);
+    opacity: 0.9;
+}
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#photo {
+    align-content: flex-start;
+    float: left;
+    padding-right: 50px;
+}
+.about-me {
+    font-size: small;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.line {
+    border-bottom: 3px solid teal;
+}
+/* @media screen and (max-width: 768px) */
+/* .mobile { */
+    /* test */
+/* } */
+
+.card-text {
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-deck {
+    margin-bottom: 50px;
+}
+.form-group {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+/*extra small devices*/
+/* @media (min-width: 300px) { */
+    /* .header { */
+    /* background-size: 55%; */
+    /* height: 15em; */
+    /* } */
+/* } */
+  /* Small devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+    .header {
+    background-size: 40%; */
+    /* }
+} */
+  /* Medium devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    .header {
+    background-size: 30%;
+}
+} */

@@ -84,6 +84,8 @@ You are required to submit the following:
 
 * The URLs of the GitHub repositories
 
+Comments from Previous Grader:
+Test the HTML using the following, https://validator.w3.org/nu/?doc=https%3A%2F%2Fqdong327.github.io%2Fresponsive-portfolio%2Findex.html
 - - -
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
