@@ -36,9 +36,9 @@ If you are opting out of career services, this is _still a required assignment_.
 
 Your updated portfolio should contain the following:
 
-1. Your full name
+<!-- 1. Your full name
 
-2. Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+2. Links to your GitHub profile & LinkedIn page as well as your email address and phone number -->
 
 3. A link to a PDF of your resume
 

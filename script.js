@@ -36,7 +36,13 @@ function openNewTab() {
             'https://issuu.com/qiado/docs/20200106-qd.portfolio',
             '_blank'
         )
-    }
+    } else if (this.id === "cv") {
+        window.open(
+            //link below not working -- BUGGIE
+            './assets/cv.pdf',
+            '_blank',
+        )
+    } 
 };
 
 // Calls

@@ -12,3 +12,9 @@ A full stack portfolio website for career development, showcasing projects, an a
 * Functionality:
   - Javascript
   - jQuery
+
+### Deployed Github Pages
+* [Github Page](https://qudoki.github.io/responsive-portfolio/)
+
+### Screenshots
+* ![Screenshot](screenshots/screenshot.png)
