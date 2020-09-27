@@ -1,0 +1,138 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-fixed {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 1rem;
+    /* text-align: center; */
+    /* object-position: center; */
+    /* border: solid 1px rgb(223, 223, 223); */
+    border-radius: 1rem;
+}
+
+.main-fixed-left {
+    display: flex;
+    justify-content: left;
+    margin-top: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 1rem;
+    /* text-align: center;
+    object-position: center; */
+    border: solid 1px rgb(223, 223, 223);
+    border-radius: 1rem;
+}
+
+.letter-text {
+    text-align: center;
+    display: inline-block;
+}
+
+.let-col {
+    display: inherit;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    transition: 0.5s;
+}
+
+.icons {
+    display: block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+}
+
+.icon-image {
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+    padding: 1px;
+    padding-bottom: 3px;
+    justify-content: center;
+}
+
+.link-icon-image {
+    display: block;
+    max-width: 25px;
+    max-height: 25px;
+    padding: 1px;
+    padding-bottom: 3px;
+    justify-content: center;
+}
+
+.nav-bar {
+    justify-self: right;
+    transition: 0.5s;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+    transition: 0.5s;
+}
+
+#qudoki {
+    width: 190px;
+    overflow: hidden;
+    position: relative;
+}
+
+#qudoki:hover {
+    background-color: rgb(0, 228, 202);
+}
+
+#qudoki:hover:after {
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    width: 100%;
+    height: 100%;
+}
+
+.below {
+    justify-content: center;
+}
+
+.btn-light {
+    background-color: white;
+}
+
+.btn-light:hover {
+    background-color: rgb(0, 228, 202);
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer {
+    text-align: center;
+    padding: 10rem;
+    font-size: 0.8vw;
+}

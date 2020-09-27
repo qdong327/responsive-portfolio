@@ -1,16 +1,14 @@
-# responsive-portfolio
+# Full Stack Portfolio Website
 
-#Full Stack Portfolio Website
-
-##Description:
+## Description:
 A full stack portfolio website for career development, showcasing projects, an about page, as well as a contact form. Design is a primary focus as a  architectural and interior designer.
 
-##Technology Used:
-*Structure:
-  -HTML
-*Design:
-  -CSS
-  -Bootstrap
-*Functionality:
-  -Javascript
-  -jQuery
+## Technology Used:
+* Structure:
+  - HTML
+* Design/Frameworks:
+  - CSS
+  - Bootstrap
+* Functionality:
+  - Javascript
+  - jQuery
