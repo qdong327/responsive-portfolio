@@ -36,14 +36,17 @@ function openNewTab() {
             'https://issuu.com/qiado/docs/20200106-qd.portfolio',
             '_blank'
         )
-    } else if (this.id === "cv") {
+    } else if (this.id === "resume") {
         window.open(
-            //link below not working -- BUGGIE
             './assets/cv.pdf',
-            '_blank',
+            '_blank'
         )
-    } 
+    }
 };
+
+function unhideAbout() {
+    $(".info").removeClass("hide")
+}
 
 // Calls
 // On clicking main button
@@ -53,5 +56,7 @@ $(document).on("click", "#qudoki", clickMain);
 $(document).on("click", "#github", openNewTab);
 $(document).on("click", "#linkedin", openNewTab);
 $(document).on("click", "#issuu", openNewTab);
+$(document).on("click", "#resume", openNewTab);
 
-
+//On clicking nav bar icons
+$(document).on("click", "#about", unhideAbout);
