@@ -16,5 +16,9 @@ A full stack portfolio website for career development, showcasing projects, an a
 ### Deployed Github Pages
 * [Github Page](https://qudoki.github.io/responsive-portfolio/)
 
+### LinkedIn
+* While I am currently unable to update my profile as I still work in the AEC industry, below displays a marked up profile that I would implement in anticipation of the full transition.
+* ![Screenshot](./screenshots/linkedinmarkup.jpg)
+
 ### Screenshots
 * ![Screenshot](screenshots/screenshot.png)

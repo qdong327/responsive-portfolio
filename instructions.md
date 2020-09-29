@@ -42,17 +42,17 @@ Your updated portfolio should contain the following:
 
 3. A link to a PDF of your resume
 
-4. A list of 3-5 projects. For each project, make sure you have the following:
+<!-- 4. A list of 3-5 projects. For each project, make sure you have the following: -->
 
-    * Project title
+    <!-- * Project title -->
 
     * Link to the deployed version
 
     * Link to the GitHub repository
+<!-- 
+    * Screenshot of the deployed application -->
 
-    * Screenshot of the deployed application
-
-5. Ensure that your portfolio is free of grammar and spelling mistakes
+<!-- 5. Ensure that your portfolio is free of grammar and spelling mistakes -->
 
 #### Design
 

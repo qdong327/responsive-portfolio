@@ -43,9 +43,25 @@ function openNewTab() {
         )
     }
 };
-
+// Function to show About Me and hide everything else
 function unhideAbout() {
-    $(".info").removeClass("hide")
+    $(".info").removeClass("hide");
+    $(".projects").addClass("hide");
+    $(".contact").addClass("hide");
+}
+
+// Function to show Projects and hide everything else
+function unhideProjects() {
+    $(".info").addClass("hide");
+    $(".projects").removeClass("hide");
+    $(".contact").addClass("hide");
+}
+
+// Function to show Contact and hide everything else
+function unhideContact() {
+    $(".info").addClass("hide");
+    $(".projects").addClass("hide");
+    $(".contact").removeClass("hide");
 }
 
 // Calls
@@ -60,3 +76,5 @@ $(document).on("click", "#resume", openNewTab);
 
 //On clicking nav bar icons
 $(document).on("click", "#about", unhideAbout);
+$(document).on("click", "#projects", unhideProjects);
+$(document).on("click", "#contact", unhideContact);
