@@ -160,14 +160,11 @@ footer {
 #photo {
     width: 10rem;
     border-radius: 1rem;
+    margin-right: 20px;
 }
 
 .full {
     width: 100%;
-}
-
-.projects {
-    height: 70%;
 }
 
 .d-block {
@@ -177,4 +174,9 @@ footer {
 
 .text {
     font-size: medium;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    padding-right: 30px;
 }

@@ -42,7 +42,53 @@ function openNewTab() {
             '_blank'
         )
     }
-};
+}
+
+// Function to Open Demo or Repo
+function openDemoRepo() {
+    if (this.id === "echo-demo") {
+        window.open(
+            'https://qudoki.github.io/group5-project1/',
+            '_blank'
+        )
+    } else if (this.id === "echo-repo") {
+        window.open(
+            'https://github.com/qudoki/group5-project1',
+            '_blank'
+        )
+    } else if (this.id === "weather-demo") {
+        window.open(
+            'https://qudoki.github.io/weatherdashboard/',
+            '_blank'
+        )
+    } else if (this.id === "weather-repo") {
+        window.open(
+            'https://github.com/qudoki/weatherdashboard',
+            '_blank'
+        )
+    } else if (this.id === "workday-demo") {
+        window.open(
+            'https://qudoki.github.io/workscheduler/',
+            '_blank'
+        )
+    } else if (this.id === "workday-repo") {
+        window.open(
+            'https://github.com/qudoki/workscheduler',
+            '_blank'
+        )
+    } else if (this.id === "quizgame-demo") {
+        window.open(
+            'https://qudoki.github.io/codequiz/',
+            '_blank'
+        )
+    } else if (this.id === "quizgame-repo") {
+        window.open(
+            'https://github.com/qudoki/codequiz',
+            '_blank'
+        )
+    }
+}
+
 // Function to show About Me and hide everything else
 function unhideAbout() {
     $(".info").removeClass("hide");
@@ -74,7 +120,10 @@ $(document).on("click", "#linkedin", openNewTab);
 $(document).on("click", "#issuu", openNewTab);
 $(document).on("click", "#resume", openNewTab);
 
-//On clicking nav bar icons
+// On clicking nav bar icons
 $(document).on("click", "#about", unhideAbout);
 $(document).on("click", "#projects", unhideProjects);
 $(document).on("click", "#contact", unhideContact);
+
+// On clicking demo or repo
+$(document).on("click", ".btn-outline-secondary", openDemoRepo);
