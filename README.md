@@ -25,7 +25,8 @@ A full stack portfolio website for career development, showcasing projects, an a
 
 
 
-# Title
+### License
+* [Link to License](./LICENSE.md)
 
 ## Description 1-2 sentences
 ## Deployed Application:

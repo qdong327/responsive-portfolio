@@ -9,6 +9,7 @@ function clickMain() {
 function unhideIcons() {
     $(".nav-bar").removeClass("hide", 1000, "swing");
     $(".below").removeClass("hide", 1000, "swing");
+    $("#div-hold").addClass("responsive", 1000, "swing");
 }
 
 function moveLeft() {
@@ -110,6 +111,11 @@ function unhideContact() {
     $(".contact").removeClass("hide");
 }
 
+// Function to clear form
+function clearForm() {
+    $(".form-control").reset();
+}
+
 // Calls
 // On clicking main button
 $(document).on("click", "#qudoki", clickMain);
@@ -127,3 +133,6 @@ $(document).on("click", "#contact", unhideContact);
 
 // On clicking demo or repo
 $(document).on("click", ".btn-outline-secondary", openDemoRepo);
+
+// On clicking submit, clear info
+$(document).on("click", ".submit", clearForm);
