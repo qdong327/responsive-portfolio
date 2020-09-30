@@ -22,3 +22,14 @@ A full stack portfolio website for career development, showcasing projects, an a
 
 ### Screenshots
 * ![Screenshot](screenshots/screenshot.png)
+
+
+
+# Title
+
+## Description 1-2 sentences
+## Deployed Application:
+## Technologies Used
+## Screenshots (2-3)
+## License (MIT) - add in Github to each
+## Collaborators with contact, or Github if applicable.
