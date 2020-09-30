@@ -21,7 +21,7 @@ A full stack portfolio website for career development, showcasing projects, an a
 * ![Screenshot](./screenshots/linkedinmarkup.jpg)
 
 ### Screenshots
-* ![Home Screen](./screenshots/0-home-screenshot.png)
+* ![Home Screen](./screenshots/0-home-screenshot.png?raw=true "Optional Title")
 * ![On Clicking Panel](./screenshots/1-buttons.png)
 * ![About](./screenshots/2-about.png)
 * ![Projects](./screenshots/3-projects.png)
