@@ -21,12 +21,12 @@ A full stack portfolio website for career development, showcasing projects, an a
 * ![Screenshot](./screenshots/linkedinmarkup.jpg)
 
 ### Screenshots
-* ![Home Screen](./screenshots/0-home-screenshot.png?raw=true "Optional Title")
-* ![On Clicking Panel](./screenshots/1-buttons.png)
-* ![About](./screenshots/2-about.png)
-* ![Projects](./screenshots/3-projects.png)
-* ![Contact](./screenshots/4-contact.png)
-* ![External Links](./screenshots/5-external.png)
+![Home Screen](./screenshots/0-home-screenshot.png?raw=true "Home Screen")
+![On Clicking Panel](./screenshots/1-buttons.png?raw=true "On Clicking Panel")
+![About](./screenshots/2-about.png?raw=true "About")
+![Projects](./screenshots/3-projects.png?raw=true "Projects")
+![Contact](./screenshots/4-contact.png?raw=true "Contact")
+![External Links](./screenshots/5-external.png?raw=true "External Links")
 
 ### License
 * [Link to License](./LICENSE.md)
