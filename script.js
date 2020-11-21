@@ -87,6 +87,26 @@ function openDemoRepo() {
             'https://github.com/qudoki/codequiz',
             '_blank'
         )
+    } else if (this.id === "readme-demo") {
+        window.open(
+            'https://vimeo.com/464865455',
+            '_blank'
+        )
+    } else if (this.id === "readme-repo") {
+        window.open(
+            'https://github.com/qudoki/readmegenerator',
+            '_blank'
+        )
+    } else if (this.id === "template-demo") {
+        window.open(
+            'https://vimeo.com/468001720',
+            '_blank'
+        )
+    } else if (this.id === "template-repo") {
+        window.open(
+            'https://github.com/qudoki/templateengine',
+            '_blank'
+        )
     }
 }
 
