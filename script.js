@@ -107,6 +107,46 @@ function openDemoRepo() {
             'https://github.com/qudoki/templateengine',
             '_blank'
         )
+    } else if (this.id === "notetaker-demo") {
+        window.open(
+            'https://shrouded-beach-99552.herokuapp.com/',
+            '_blank'
+        )
+    } else if (this.id === "notetaker-repo") {
+        window.open(
+            'https://github.com/qudoki/notetaker',
+            '_blank'
+        )
+    } else if (this.id === "burger-demo") {
+        window.open(
+            ' https://hidden-everglades-80089.herokuapp.com/burgers',
+            '_blank'
+        )
+    } else if (this.id === "burger-repo") {
+        window.open(
+            'https://github.com/qudoki/burger-logger.git',
+            '_blank'
+        )
+    } else if (this.id === "employee-demo") {
+        window.open(
+            'https://vimeo.com/472894396/d4af419603',
+            '_blank'
+        )
+    } else if (this.id === "employee-repo") {
+        window.open(
+            'https://github.com/qudoki/employee-tracker.git',
+            '_blank'
+        )
+    } else if (this.id === "raccoon-demo") {
+        window.open(
+            'https://intense-falls-12076.herokuapp.com/',
+            '_blank'
+        )
+    } else if (this.id === "raccoon-repo") {
+        window.open(
+            'https://github.com/qudoki/group1-project2',
+            '_blank'
+        )
     }
 }
 
